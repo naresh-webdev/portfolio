@@ -1,3 +1,9 @@
-# portfolio-website
+###
 
-This is my personal portfolio website that I am going to update everytime  I learn a new concepts in web development field
+Description
+
+###
+
+
+This is my personal porfolio-website that I created for myself when i am learing a little bit of 
+css and html,also i am going to step into javascript soon!
