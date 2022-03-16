@@ -4,69 +4,215 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naresh M | Web Developer</title>
+    <script src="https://use.fontawesome.com/79a6ec2819.js"></script>
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/dc72aeb803.js" crossorigin="anonymous"></script>
-    <title>Naresh M | Front-end web developer</title>
 </head>
 
 <body>
-    <nav>
-        <input type="checkbox" id="check">
-
-        <label for="check" class="checkbtn">
-            <i class="fa fa-bars"></i>
-        </label>
-
-        <label class="logo">Naresh M</label>
-        <ul>
-            <li><a class="active" href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contack</a></li>
-            <li><a href="#">Feedback</a></li>
-        </ul>
-    </nav>
-    <div class="container">
-        <div class="parallax-top">
-            <div class="inner-parallax">
-                <div class="text-parallax">
-                    <h1>Naresh M</h1>
-                    <br>
-                    <h4>Web Developer - Programmer</h4>
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="middle-parallax">
-            <div class="box">
-                <img src="profile.jpeg" id="box-image" alt="browser doesn't support the image try another browser">
-            </div>
-            <div class="middle-content">
-                Hi, I'm Naresh,17 y/o full stack web developer,javascript expert.I can build all sort of portfolio
-                websites with a perfect domain name .Any type of website will take less than a week
-                to build😎.
-            </div>
-        </div>
-
-
-        <div class="parallax-bottom">
-            <ul>
-                <li><a href="https://github.com/Naresh0910" target="_blank"><i class="fab fa-github-square"></i></i></a>
-                </li>
-                <li><a href="https://twitter.com/M_Naresh_dev" target="_blank"><i
-                            class="fab fa-twitter-square"></i></i></a>
-                </li>
-                <li><a href="https://dev.to/naresh0910" target="_blank"><i class="fab fa-dev"></i></i></a></li>
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();">
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#testimonial">Testimonial</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-            <h3>
-                contact : gkmnaresh01@gmail.com
-                <br>or<br> naresh2004.m@gmail.com
-            </h3>
+        </div>
+    </header>
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello, I'm<br><span>Naresh M.</span></h2>
+            <h3>I'm a Front End Web Developer</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w100">
+                <h3>I'm a Front End Web Developer.</h3>
+                <p>Hi I am a self taught front end web developer,on the road of becomming a full stack web
+                    developer.Currently working on HTML and CSS project,I am also little bit familiar with python made
+                    some websites using python's flask module.<br><br>
+                    My future plan inculdes learning :
+
+                </p>
+                </br>
+                <p>
+                <ul class="list-elements">
+                    <li>javascript</li>
+                    <li>node.js</li>
+                    <li>mongodb</li>
+                    <li>react & angular</li>
+                    <li>ethical hacking</li>
+                    <li>video Editing</li>
+                </ul>
+                </p>
+            </div>
+            <div class="w100">
+                <img src="img1.jpg" alt="update your browser bakka" class="img" height="380px" id="image">
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>Services</h2>
+            <p>Available services for clients.</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img src="icon1.png" alt="">
+                <h2>Web Design</h2>
+                <p>currently unavilable.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="icon2.png" alt="">
+                <h2>Web Development</h2>
+                <p>Website can be developed using HTML and CSS and a little bit of javascript too.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="icon4.png" alt="">
+                <h2>Ethical Hacking</h2>
+                <p>currently unavilable</p>
+            </div>
+            <div class="servicesBx">
+                <img src="icon3.png" alt="">
+                <h2>Fitness</h2>
+                <p>steps to get super fit abs is comming soon,you can expect it when I get my abs this year or the next
+                    year</p>
+            </div>
+            <div class="servicesBx">
+                <img src="icon5.png" alt="">
+                <h2>Algorithum Writing</h2>
+                <p>basic algorithum writing is done here.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="icon6.png" alt="">
+                <h2>Video Editing</h2>
+                <p>can expect to be done from 2023 end or 2024 start</p>
+            </div>
 
         </div>
-    </div>
+    </section>
+
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>Our Latest Work</h2>
+            <p>Recent work done by Naresh M using html and css.</p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <a href="https://augustusmarket.pythonanywhere.com/" target="_blank"><img src="product1.jpg" alt=""
+                        height="270px" width="600px"></a>
+            </div>
+            <div class="workBx">
+                <a href="http://fullmetalalchemist.rf.gd/" target="_blank"><img src="product2.jpg" alt="" height="270px"
+                        width="600px"></a>
+            </div>
+            <div class="workBx">
+                <a href="https://thiruselvan.000webhostapp.com/" target="_blank"><img src="product3.jpg" alt=""
+                        height="270px" width="600px"></a>
+            </div>
+            <div class="workBx">
+                <a href="http://charukesh.rf.gd/?i=1" target="_blank"><img src="product4.jpg" alt="" height="270px"
+                        width="600px"></a>
+            </div>
+        </div>
+        <div class="heading" id="more">
+            <a href="#" class="btn">View More</a>
+        </div>
+    </section>
+
+    <section class="testimonial" id="testimonial">
+        <div class="heading">
+            <h2>Testimonial</h2>
+            <p>Testimonials received from recent clients.</p>
+        </div>
+        <div class="content" id="media-row">
+            <div class="testimonialBx">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, beatae autem. Perferendis
+                    distinctio porro error quam magnam fugit maiores, quibusdam aliquid aut facilis unde! Praesentium
+                    magnam dolore consequuntur tempore ipsum.</p>
+                <h3>Someone Famous<br><span>Creative Designer</span></h3>
+            </div>
+            <div class="testimonialBx">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, beatae autem. Perferendis
+                    distinctio porro error quam magnam fugit maiores, quibusdam aliquid aut facilis unde! Praesentium
+                    magnam dolore consequuntur tempore ipsum.</p>
+                <h3>Someone Famous<br><span>Creative Designer</span></h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>Contact Us</h2>
+            <p>Fill up the form and we will soon contact you through your provided Email</p>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>Madipakkam,<br>chennai,Tamil Nadu,<br>600 091</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>91+ 8668032637</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>gkmnaresh01@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form action="https://formspree.io/f/moqrleye" method="POST">
+                    <h3>Message Me</h3>
+                    <input type="text" name="name" placeholder="Full Name">
+                    <input type="email" name="email" placeholder="Email">
+                    <textarea placeholder="Your Message" name="message"></textarea>
+                    <button type="submit" class="btn">send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function () {
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+        function toggleMenu() {
+            var menutoggle = document.querySelector('.toggle');
+            var menu = document.querySelector('.menu');
+            menutoggle.classList.toggle('active');
+            menu.classList.toggle('active');
+        }
+    </script>
+
 </body>
 
 </html>
